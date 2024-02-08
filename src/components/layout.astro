@@ -44,6 +44,16 @@ const { title, description, home = false } = Astro.props;
       box-sizing: border-box;
     }
 
+
+    @font-face {
+      font-family: 'CentraNo2';
+      src: url('https://www.fortomorrow.eu/assets/common/font/CentraNo2-Light.woff2') format('woff2'),
+        url('https://www.fortomorrow.eu/assets/common/font/CentraNo2-Light.woff') format('woff');
+      font-weight: 300;
+      font-style: normal;
+    }
+
+
     html,
     body {
 
@@ -53,6 +63,7 @@ const { title, description, home = false } = Astro.props;
       line-height: 1.45;
       margin: 0;
       padding: 0;
+      font-family: 'CentraNo2';
     }
 
     body {
@@ -64,7 +75,7 @@ const { title, description, home = false } = Astro.props;
     }
 
     h1, h2, h3 {
-      font-family: var(--font-primary);
+      font-family: 'CentraNo2';
     }
 
     a:link,
