@@ -10,3 +10,10 @@
   status = 200
   to = "https://www.fortomorrow.eu/assets/common/font/CentraNo2-Light.woff2"
 
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "https://codepen.io"
+    Access-Control-Allow-Methods = "GET"
+    Access-Control-Allow-Headers = "X-Requested-With"
+    Access-Control-Max-Age = "86400"
