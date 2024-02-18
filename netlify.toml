@@ -1,4 +1,4 @@
 [[headers]]
   for = "/fonts/*"
   [headers.values]
-    Access-Control-Allow-Origin = ["https://codepen.io", "https://fundraisingbox.com", "https://secure.fundraisingbox.com","https://cdpn.io"]
+    Access-Control-Allow-Origin = "https://cdpn.io"
